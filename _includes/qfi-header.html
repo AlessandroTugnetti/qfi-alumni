@@ -3,7 +3,7 @@
     <a class="brand" href="{{ '/' | relative_url }}">
       <img src="{{ '/assets/img/logo-qfi.png' | relative_url }}" width="1390" height="310" alt="QFI Alumni &amp; Students Association, home">
     </a>
-    <nav aria-label="Navigazione principale">
+    <nav aria-label="Main navigation">
       <ul class="nav-list">
         {% assign nav_pages = site.pages | where_exp: 'item', 'item.nav_order' | sort: 'nav_order' %}
         {% for item in nav_pages %}
@@ -11,7 +11,7 @@
         {% endfor %}
       </ul>
     </nav>
-    <button class="theme-toggle" type="button" aria-label="Tema scuro" aria-pressed="false" hidden>
+    <button class="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false" hidden>
       <svg class="moon" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <path d="M20.9 13.3A9 9 0 0 1 10.7 3.1a9 9 0 1 0 10.2 10.2Z"/>
       </svg>

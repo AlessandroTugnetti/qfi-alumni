@@ -1,14 +1,15 @@
 ---
 layout: qfi
-title: Associazione
+title: About the Association
+nav_title: About
 permalink: /associazione/
 nav_order: 2
-kicker: Chi siamo
-description: Una comunità che mette in contatto studenti, alumni e docenti di QFI.
+kicker: Who we are
+description: A community that brings together QFI students, alumni and faculty.
 ---
-La QFI Alumni & Students Association nasce a Torino per dare continuità agli incontri e agli scambi tra le diverse generazioni del corso. L’associazione promuove iniziative che avvicinano studenti e alumni, crea occasioni di dialogo con i docenti e studia i percorsi professionali dopo la laurea.
+The QFI Alumni & Students Association was founded in Turin to help people from different QFI cohorts stay connected. The association brings students and alumni together, creates opportunities to talk with faculty and studies where graduates go after completing the programme.
 
-Le Reunion e i Welcome Party sono occasioni per incontrare chi sta iniziando il percorso QFI e chi lo ha già concluso. La ricerca sulle carriere aiuta a capire dove il corso può portare, dalla finanza alle assicurazioni e alla ricerca.
+Reunions and welcome parties bring new students and graduates together. Our research on alumni careers explores where a QFI degree can lead, from finance and insurance to academic research.
 
-- [Scopri il corso di laurea all’Università di Torino](https://en.unito.it/studying-unito/programs/degree-programs/quantitative-finance-and-insurance)
-- [Leggi la newsletter dell’associazione]({{ '/archivio/' | relative_url }})
+- [Explore the degree programme at the University of Turin](https://en.unito.it/studying-unito/programs/degree-programs/quantitative-finance-and-insurance)
+- [Read the association newsletter]({{ '/archivio/' | relative_url }})

@@ -1,30 +1,30 @@
 ---
 layout: qfi
-title: Partecipa
+title: Get Involved
 permalink: /partecipa/
 nav_order: 5
-kicker: La comunità QFI
-description: Trova il punto di partenza per entrare nella vita associativa o proporre un’iniziativa.
+kicker: The QFI community
+description: Find out how to take part in the association’s activities or propose an initiative.
 ---
-<nav class="jump-links" aria-label="Percorsi di partecipazione">
-  <a href="#studenti">Studenti</a>
+<nav class="jump-links" aria-label="Ways to get involved">
+  <a href="#studenti">Students</a>
   <a href="#alumni">Alumni</a>
-  <a href="#aziende">Aziende</a>
+  <a href="#aziende">Employers</a>
 </nav>
 
-## Studenti
+## Students
 {: #studenti}
 
-Gli studenti QFI, inclusi i dottorandi ex allievi del corso, possono presentare domanda di ammissione come soci ordinari. Il direttivo valuta la domanda. Scrivici per ricevere le istruzioni o proporre un’iniziativa.
+Current QFI students and former QFI students pursuing a PhD may apply to become ordinary members. The board reviews applications. Email us to find out how to apply or to propose an initiative.
 
 ## Alumni
 {: #alumni}
 
-Puoi proporre un talk, raccontare il tuo percorso, rispondere alle domande degli studenti o segnalare un’opportunità di lavoro.
+Give a talk, share your career story, answer students’ questions or pass on a job opportunity.
 
-## Aziende
+## Employers
 {: #aziende}
 
-Puoi proporre uno stage, un incontro con professionisti o un progetto da discutere con gli studenti.
+Offer an internship, arrange a discussion with professionals or suggest a project to discuss with students.
 
-[Scrivi all’associazione](mailto:associazione.qfi@unito.it)
+[Email the association](mailto:associazione.qfi@unito.it)

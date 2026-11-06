@@ -1,21 +1,21 @@
 ---
 layout: qfi
-title: Eventi
+title: Events
 permalink: /eventi/
 nav_order: 3
-kicker: La comunità QFI
-description: Incontri tra studenti, alumni e docenti del corso.
+kicker: The QFI community
+description: Events for QFI students, alumni and faculty.
 ---
 ## Welcome Party 2026
 {: #welcome-party-2026}
 
-**9 ottobre 2026 · School of Management and Economics, Torino**
+**9 October 2026 · School of Management and Economics, Turin**
 
-Il programma ha affiancato al benvenuto per la nuova coorte una presentazione della ricerca sulle carriere QFI. Tre alumni hanno condiviso la loro esperienza professionale e accademica, seguiti da uno spazio di confronto con gli studenti.
+The event welcomed the new cohort and included a presentation on research into QFI career paths. Three alumni shared their professional and academic experiences, followed by a discussion with students.
 
-[Esplora la ricerca sui percorsi alumni]({{ '/percorsi-alumni/' | relative_url }})
+[Explore the research on alumni careers]({{ '/percorsi-alumni/' | relative_url }})
 
 ## Welcome Party 2025
 {: #welcome-party-2025}
 
-L’edizione 2025 fa parte della serie di incontri di benvenuto della comunità QFI.
+The 2025 edition was part of the QFI community’s series of welcome events.

@@ -18,7 +18,7 @@
     const sync = () => {
       apply();
       button.setAttribute("aria-pressed", String(isDark()));
-      button.title = isDark() ? "Passa al tema chiaro" : "Passa al tema scuro";
+      button.title = isDark() ? "Switch to light mode" : "Switch to dark mode";
     };
 
     button.addEventListener("click", () => {
