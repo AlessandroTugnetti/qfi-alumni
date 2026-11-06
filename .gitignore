@@ -1,0 +1,27 @@
+# Local project defaults. Review exclusions before staging.
+.DS_Store
+.mypka/
+.env
+.env.*
+!.env.example
+!.env.sample
+credentials.*
+secrets.*
+*.pem
+*.key
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+dist/
+build/
+
+# Jekyll and Bundler
+/_site/
+/.jekyll-cache/
+/.jekyll-metadata
+/.bundle/
+/vendor/bundle/

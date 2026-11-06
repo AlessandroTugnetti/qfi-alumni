@@ -1,0 +1,26 @@
+title: QFI Alumni & Students Association
+description: La comunità di studenti e alumni di Quantitative Finance and Insurance dell’Università di Torino.
+lang: it
+url: https://alessandrotugnetti.github.io
+baseurl: /qfi-alumni
+theme: al_folio_core
+plugins:
+  - al_folio_core
+al_folio:
+  api_version: 1
+  style_engine: tailwind
+  tailwind:
+    version: 4.1.18
+    preflight: false
+    css_entry: assets/tailwind/app.css
+  distill:
+    engine: distillpub-template
+    source: al-org-dev/distill-template#al-folio
+    allow_remote_loader: false
+include:
+  - _pages
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
