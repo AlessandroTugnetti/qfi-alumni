@@ -3,7 +3,7 @@ layout: qfi
 title: "QFI Alumni: Labour-Market Entry and Career Progression"
 date: 2026-10-09
 kicker: Working paper
-description: A study of labour-market entry and career progression among QFI graduates and graduates of its predecessor programmes at the University of Turin.
+description: How graduates of QFI and its predecessor programmes at the University of Turin find their first jobs and move through their careers.
 authors:
   - Alessandro Tugnetti
   - Saverio Capra
@@ -15,9 +15,9 @@ doi: 10.2139/ssrn.7582999
 
 Posted on SSRN on <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%-d %B %Y' }}</time>.
 
-The paper studies labour-market entry and career progression among 424 alumni of Quantitative Finance and Insurance and its predecessor programmes at the University of Turin. It uses monthly career histories reconstructed from public LinkedIn profiles.
+Our [research](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7582999) follows 424 graduates of Quantitative Finance and Insurance and its predecessor programmes at the University of Turin. We used public LinkedIn profiles to reconstruct their career histories month by month.
 
-The analysis examines the time to the first observed qualifying job, the occupations graduates enter and how their careers develop over time. It also explores the relationship between experience gained before graduation and subsequent employment.
+We looked at how long it took graduates to reach their first observed qualifying job, the roles they entered and what happened as their careers developed. We also examined how experience gained before graduation related to later employment.
 
 <div class="actions">
   <a class="button primary" href="{{ page.ssrn_url | escape }}">Read the working paper on SSRN</a>
