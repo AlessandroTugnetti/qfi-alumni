@@ -24,4 +24,4 @@ The analysis examines the time to the first observed qualifying job, the occupat
   <a class="button" href="https://doi.org/{{ page.doi | escape }}">DOI {{ page.doi | escape }}</a>
 </div>
 
-[Explore alumni careers]({{ '/percorsi-alumni/' | relative_url }})
+[Back to projects]({{ '/projects/' | relative_url }})
