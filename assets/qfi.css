@@ -102,10 +102,17 @@ p { margin: 0 0 1em; }
 .feature h2 a:hover { text-decoration: underline; }
 .feature p:last-child { margin-bottom: 0; }
 .jump-links { display: flex; flex-wrap: wrap; gap: 1rem; }
-.news-list { list-style: none; padding: 0; margin: 1rem 0 0; }
-.news-list li { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr); gap: 1rem; padding-block: .8rem; border-bottom: 1px solid var(--line); }
+.news-year { margin-top: 1.5rem; }
+.news-year h3 { margin: 0; font-size: 1.5rem; }
+.news-tabs { display: flex; flex-wrap: wrap; gap: .5rem; margin-block: 1rem; }
+.news-tab { min-height: 44px; padding: .4rem 1rem; border: 1px solid var(--line); border-radius: .25rem; background: var(--panel); color: var(--blue); font: inherit; cursor: pointer; }
+.news-tab:hover { background: var(--wash); }
+.news-tab[aria-selected="true"] { background: var(--blue); border-color: var(--blue); color: var(--on-blue); }
+.news-tabs:not([hidden]) ~ .news-year { margin-top: 0; }
+.news-list { list-style: none; padding: 0; margin: .5rem 0 0; }
+.news-list li { display: grid; grid-template-columns: 4rem minmax(0, 1fr); gap: 1rem; padding-block: .8rem; border-bottom: 1px solid var(--line); }
 .news-list time, .project-authors { color: var(--subtle); }
-.news-list time { font-variant-numeric: tabular-nums; }
+.news-list time { font-variant-numeric: tabular-nums; white-space: nowrap; }
 .news-list p:last-child { margin-bottom: 0; }
 .project-list { display: grid; gap: 1rem; }
 .project-card { margin-top: 1rem; }

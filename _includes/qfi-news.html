@@ -1,13 +1,27 @@
-<ol class="news-list">
-  {% assign news_items = site.news | sort: 'date' | reverse %}
-  {% for item in news_items limit: include.limit %}
-    <li>
-      {% if item.date_precision == 'month' %}
-        <time datetime="{{ item.date | date: '%Y-%m' }}">{{ item.date | date: '%b %Y' }}</time>
-      {% else %}
-        <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%-d %b %Y' }}</time>
-      {% endif %}
-      <div>{{ item.content }}</div>
-    </li>
-  {% endfor %}
-</ol>
+{% assign news_items = site.news | sort: 'date' | reverse %}
+{% assign news_years = news_items | group_by_exp: 'item', "item.date | date: '%Y'" %}
+<div class="news-archive">
+  <div class="news-tabs" role="tablist" aria-label="News by year" hidden>
+    {% for year in news_years %}
+      <button class="news-tab" type="button" role="tab" id="news-tab-{{ year.name }}" aria-controls="news-year-{{ year.name }}" aria-selected="false" tabindex="-1">{{ year.name }}</button>
+    {% endfor %}
+  </div>
+{% for year in news_years %}
+  <section class="news-year" id="news-year-{{ year.name }}" aria-labelledby="news-{{ year.name }}">
+    <h3 id="news-{{ year.name }}">{{ year.name }}</h3>
+    <ol class="news-list">
+      {% for item in year.items %}
+        <li>
+          {% if item.date_precision == 'month' %}
+            <time datetime="{{ item.date | date: '%Y-%m' }}">{{ item.date | date: '%b' }}</time>
+          {% else %}
+            <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%-d %b' }}</time>
+          {% endif %}
+          <div>{{ item.content }}</div>
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+{% endfor %}
+</div>
+<script src="{{ '/assets/news.js' | relative_url }}" defer></script>
