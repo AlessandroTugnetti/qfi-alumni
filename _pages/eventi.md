@@ -15,6 +15,8 @@ The event welcomed the new cohort and included a presentation on research into Q
 
 [View the Welcome Party 2026 flyer (PDF)]({{ '/assets/documenti/welcome-party-2026-flyer.pdf' | relative_url }})
 
+[View the Welcome Party 2026 photos]({{ '/eventi/welcome-party-2026/photos/' | relative_url }})
+
 [Explore the research project]({{ '/projects/qfi-alumni-careers/' | relative_url }})
 
 ## Welcome Party 2025

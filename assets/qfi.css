@@ -115,6 +115,11 @@ p { margin: 0 0 1em; }
 .foundation-photo { width: min(100%, 680px); margin: 1.5rem auto 2rem; }
 .foundation-photo img { display: block; width: 100%; height: auto; border-radius: .35rem; }
 .foundation-photo figcaption { margin-top: .6rem; color: var(--subtle); font-size: 1rem; }
+.event-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; margin-block: 1.5rem; }
+.event-gallery figure { margin: 0; min-width: 0; }
+.event-gallery a { display: block; border: 1px solid var(--line); border-radius: .35rem; background: var(--wash); }
+.event-gallery img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: contain; border-radius: .35rem; }
+.event-gallery figcaption { margin-top: .6rem; color: var(--subtle); }
 .support-panel { display: grid; grid-template-columns: minmax(0, 1fr) 250px; align-items: center; gap: 1.5rem; margin-top: 1rem; }
 .support-panel h3 { margin-top: 0; font-size: 1.75rem; }
 .paypal-qr { display: block; width: 250px; max-width: 100%; height: auto; background: #fff; border-radius: .35rem; }
@@ -133,7 +138,7 @@ details > p { margin: .65rem 0 0; }
 }
 @media (max-width: 600px) {
   .news-list li { grid-template-columns: 1fr; gap: .25rem; }
-  .three, .two { grid-template-columns: 1fr; }
+  .three, .two, .event-gallery { grid-template-columns: 1fr; }
   .support-panel { grid-template-columns: 1fr; }
   .paypal-qr { justify-self: center; }
   .brand { max-width: calc(100% - 4.2rem); }
