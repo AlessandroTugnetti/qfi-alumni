@@ -9,48 +9,37 @@ photos:
     width: 1280
     height: 1706
     alt: A speaker addresses the room with the Welcome Party 2026 flyer projected behind him.
-    caption: Welcome remarks
   - file: 02-community-presentation.jpeg
     width: 2048
     height: 1536
     alt: A speaker presents beside the projected Welcome Party 2026 programme.
-    caption: Bringing the QFI community together
   - file: 03-alumni-research.jpeg
     width: 2048
     height: 1536
     alt: A speaker presents the data used in the QFI alumni career study.
-    caption: Presenting the alumni research project
   - file: 04-life-after-qfi.jpeg
     width: 2048
     height: 1536
     alt: A speaker discusses options after QFI, including the private sector, institutions and a PhD.
-    caption: Life after QFI
   - file: 05-research-career.jpeg
     width: 1600
     height: 1200
     alt: A speaker presents a timeline of research visits and conferences.
-    caption: Perspectives on a research career
   - file: 06-professional-experience.jpeg
     width: 1600
     height: 1200
     alt: A speaker shares his studies and professional experience at the European Central Bank.
-    caption: Sharing professional experiences
   - file: 07-students-and-alumni.jpeg
     width: 1280
     height: 1706
     alt: Attendees listen to speakers in the lecture hall during the Welcome Party.
-    caption: Students and alumni at the Welcome Party
 ---
 <p><a href="{{ '/eventi/#welcome-party-2026' | relative_url }}">Back to the event</a></p>
-<p>Seven moments from the Welcome Party 2026. Select a photo to view it at its original size.</p>
 <div class="event-gallery">
   {% for photo in page.photos %}
   {% assign photo_url = '/assets/img/events/welcome-party-2026/' | append: photo.file | relative_url %}
-  <figure>
-    <a href="{{ photo_url }}" aria-label="{{ photo.caption | escape }}: view original photo">
-      <img src="{{ photo_url }}" width="{{ photo.width }}" height="{{ photo.height }}" alt="{{ photo.alt | escape }}" loading="lazy" decoding="async">
-    </a>
-    <figcaption>{{ photo.caption | escape }}</figcaption>
-  </figure>
+  <a href="{{ photo_url }}" aria-label="View original photo {{ forloop.index }}">
+    <img src="{{ photo_url }}" width="{{ photo.width }}" height="{{ photo.height }}" alt="{{ photo.alt | escape }}" loading="lazy" decoding="async">
+  </a>
   {% endfor %}
 </div>
