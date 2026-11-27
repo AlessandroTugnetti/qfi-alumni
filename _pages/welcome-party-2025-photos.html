@@ -1,0 +1,61 @@
+---
+layout: qfi
+title: Welcome Party 2025 photos
+permalink: /eventi/welcome-party-2025/photos/
+kicker: The QFI community
+description: 3 October 2025 · Turin.
+photos:
+  - file: 01-welcome-remarks.jpeg
+    width: 1200
+    height: 1600
+    alt: Three speakers stand at the front of the lecture hall with the Welcome Party 2025 programme projected behind them.
+    caption: Welcome remarks
+  - file: 02-community-presentation.jpeg
+    width: 1200
+    height: 1600
+    alt: A speaker addresses attendees beside the projected Welcome Party 2025 programme.
+    caption: Bringing the QFI community together
+  - file: 03-alumni-talk.jpeg
+    width: 1200
+    height: 1600
+    alt: A speaker talks to the audience from the front of the lecture hall.
+    caption: Alumni perspectives
+  - file: 04-studies-and-work.jpeg
+    width: 1200
+    height: 1600
+    alt: A speaker presents slides about studies and work in quantitative research and asset management.
+    caption: From QFI to quantitative research
+  - file: 05-sharing-experiences.jpeg
+    width: 1200
+    height: 1600
+    alt: A speaker shares his experience with attendees at the Welcome Party.
+    caption: Sharing experiences
+  - file: 06-community-discussion.jpeg
+    width: 1280
+    height: 1706
+    alt: A speaker addresses the room from behind the lectern beneath the projected event programme.
+    caption: Conversations with the QFI community
+  - file: 07-audience.jpeg
+    width: 1200
+    height: 1600
+    alt: Attendees sit in the tiered lecture hall during the Welcome Party 2025.
+    caption: Students and alumni in the lecture hall
+  - file: 08-dinner.jpeg
+    width: 1200
+    height: 1600
+    alt: A group gathers around a long restaurant table for dinner.
+    caption: Dinner together
+---
+<p><a href="{{ '/eventi/#welcome-party-2025' | relative_url }}">Back to the event</a></p>
+<p>Eight moments from the Welcome Party 2025. Select a photo to view it at its original size.</p>
+<div class="event-gallery">
+  {% for photo in page.photos %}
+  {% assign photo_url = '/assets/img/events/welcome-party-2025/' | append: photo.file | relative_url %}
+  <figure>
+    <a href="{{ photo_url }}" aria-label="{{ photo.caption | escape }}: view original photo">
+      <img src="{{ photo_url }}" width="{{ photo.width }}" height="{{ photo.height }}" alt="{{ photo.alt | escape }}" loading="lazy" decoding="async">
+    </a>
+    <figcaption>{{ photo.caption | escape }}</figcaption>
+  </figure>
+  {% endfor %}
+</div>

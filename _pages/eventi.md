@@ -27,3 +27,5 @@ The 2025 edition was part of the QFI community’s series of welcome events.
 **3 October 2025 · 16:30 · Aula 02, Turin**
 
 [View the Welcome Party 2025 flyer (PDF)]({{ '/assets/documenti/welcome-party-2025-flyer.pdf' | relative_url }})
+
+[View the Welcome Party 2025 photos]({{ '/eventi/welcome-party-2025/photos/' | relative_url }})
