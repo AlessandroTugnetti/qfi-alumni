@@ -1,0 +1,14 @@
+---
+layout: qfi
+title: Projects
+permalink: /projects/
+nav_order: 4.5
+kicker: QFI Research
+description: Research projects from the QFI community.
+---
+<div class="project-list">
+  {% assign projects = site.projects | sort: 'date' | reverse %}
+  {% for project in projects %}
+    {% include qfi-project-card.html project=project %}
+  {% endfor %}
+</div>

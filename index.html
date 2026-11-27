@@ -15,16 +15,26 @@ nav_order: 1
   </div>
 </section>
 
-<section class="wrap content" aria-labelledby="partecipazione">
-  <h2 id="partecipazione">How would you like to get involved?</h2>
-  <div class="grid three">
-    <a class="panel panel-link" href="{{ '/partecipa/#studenti' | relative_url }}"><strong>I’m a QFI student</strong><span>Find out how to join the association or propose an initiative.</span></a>
-    <a class="panel panel-link" href="{{ '/partecipa/#alumni' | relative_url }}"><strong>I’m a QFI graduate</strong><span>Share your experience, give a talk or pass on an opportunity.</span></a>
-    <a class="panel panel-link" href="{{ '/partecipa/#aziende' | relative_url }}"><strong>I represent an employer</strong><span>Offer an internship, host a discussion or suggest a project.</span></a>
-  </div>
-  <section class="feature" aria-labelledby="welcome">
-    <p class="kicker">From the archive · 9 October 2026</p>
-    <h2 id="welcome"><a href="{{ '/eventi/#welcome-party-2026' | relative_url }}">Welcome Party 2026</a></h2>
-    <p>The event welcomed the new cohort and featured research on QFI career paths and talks by three alumni.</p>
+<div class="wrap content">
+  <section aria-labelledby="news">
+    <h2 id="news">News</h2>
+    {% include qfi-news.html limit=5 %}
   </section>
-</section>
+
+  <section class="feature" aria-labelledby="projects">
+    <h2 id="projects"><a href="{{ '/projects/' | relative_url }}">Projects</a></h2>
+    {% assign projects = site.projects | sort: 'date' | reverse %}
+    {% for project in projects limit: 1 %}
+      {% include qfi-project-card.html project=project %}
+    {% endfor %}
+  </section>
+
+  <section class="feature" aria-labelledby="partecipazione">
+    <h2 id="partecipazione">How would you like to get involved?</h2>
+    <div class="grid three">
+      <a class="panel panel-link" href="{{ '/partecipa/#studenti' | relative_url }}"><strong>I’m a QFI student</strong><span>Find out how to join the association or propose an initiative.</span></a>
+      <a class="panel panel-link" href="{{ '/partecipa/#alumni' | relative_url }}"><strong>I’m a QFI graduate</strong><span>Share your experience, give a talk or pass on an opportunity.</span></a>
+      <a class="panel panel-link" href="{{ '/partecipa/#aziende' | relative_url }}"><strong>I represent an employer</strong><span>Offer an internship, host a discussion or suggest a project.</span></a>
+    </div>
+  </section>
+</div>

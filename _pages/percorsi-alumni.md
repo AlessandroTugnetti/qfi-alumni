@@ -8,6 +8,8 @@ description: From first jobs to later career moves, this study follows graduates
 ---
 *QFI Alumni: Labour-Market Entry and Career Progression*
 
+The working paper by Alessandro Tugnetti, Saverio Capra and Lorenzo Toscano is available on SSRN. [Explore the project]({{ '/projects/qfi-alumni-careers/' | relative_url }}) or [read the paper on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7582999).
+
 <div class="grid two">
   <section class="panel">
     <h2>First jobs</h2>
@@ -20,7 +22,7 @@ description: From first jobs to later career moves, this study follows graduates
 </div>
 
 {% details How to read the results %}
-Each chart will show which cohorts it covers, the observation date, the denominator and the coverage of the available career histories. The results will be added once approved for publication.
+The working paper explains the cohorts included, observation periods, sample sizes and coverage of the available career histories. Refer to the paper for the results and their limitations.
 {% enddetails %}
 
 [Share your career story]({{ '/partecipa/#alumni' | relative_url }})

@@ -19,6 +19,12 @@ al_folio:
     allow_remote_loader: false
 include:
   - _pages
+collections:
+  news:
+    output: false
+  projects:
+    output: true
+    permalink: /projects/:name/
 exclude:
   - README.md
   - LICENSE

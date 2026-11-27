@@ -1,0 +1,10 @@
+<article class="panel project-card">
+  <p class="kicker">{{ include.project.kicker | escape }}</p>
+  <h3><a href="{{ include.project.url | relative_url }}">{{ include.project.title | escape }}</a></h3>
+  <p class="project-authors">{{ include.project.authors | join: ', ' | escape }}</p>
+  <p>{{ include.project.description | escape }}</p>
+  <div class="actions">
+    <a class="button" href="{{ include.project.url | relative_url }}">Explore the project</a>
+    <a class="button" href="{{ include.project.ssrn_url | escape }}">Read on SSRN</a>
+  </div>
+</article>
